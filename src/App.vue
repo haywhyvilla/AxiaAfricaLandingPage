@@ -10,6 +10,7 @@
     <Success />
     <Partner />
   </div>
+  <Footer />
 </template>
 
 <script>
@@ -22,6 +23,7 @@ import School from "./components/School.vue";
 import Forter from "./components/Foster.vue";
 import Success from "./components/Success.vue";
 import Partner from "./components/Partner.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
@@ -34,6 +36,7 @@ export default {
     Forter,
     Success,
     Partner,
+    Footer,
   },
 };
 </script>

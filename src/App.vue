@@ -7,6 +7,8 @@
     <GetOnboard />
     <School />
     <Forter />
+    <Success />
+    <Partner />
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import Learn from "./components/Learn.vue";
 import GetOnboard from "./components/GetOnboard.vue";
 import School from "./components/School.vue";
 import Forter from "./components/Foster.vue";
+import Success from "./components/Success.vue";
+import Partner from "./components/Partner.vue";
 export default {
   name: "App",
   components: {
@@ -28,6 +32,8 @@ export default {
     GetOnboard,
     School,
     Forter,
+    Success,
+    Partner,
   },
 };
 </script>

@@ -6,6 +6,7 @@
     <Learn />
     <GetOnboard />
     <School />
+    <Forter />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Courses from "./components/Courses.vue";
 import Learn from "./components/Learn.vue";
 import GetOnboard from "./components/GetOnboard.vue";
 import School from "./components/School.vue";
+import Forter from "./components/Foster.vue";
 export default {
   name: "App",
   components: {
@@ -25,6 +27,7 @@ export default {
     Learn,
     GetOnboard,
     School,
+    Forter,
   },
 };
 </script>

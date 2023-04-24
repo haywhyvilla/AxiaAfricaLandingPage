@@ -3,10 +3,10 @@
     class="mx-auto container w-full mt-24 mb-40 lg:px-[150px] px-5 relative"
   >
     <div class="">
-      <h1 class="headline text-[28px] font-medium text-darkish md:text-4xl">
+      <h1 class="headline text-[28px] font-medium text-[#111] md:text-4xl">
         Discover the right school for your journey
       </h1>
-      <p class="md:text-lg max-w-[708px] text-darkgrey mt-5 font-medium">
+      <p class="md:text-lg max-w-[708px] text-[#3f3f3f] mt-5 font-medium">
         Axia Africa offers you the chance to explore schools which has variety
         of courses to learn from, like product design, Front end,
       </p>
@@ -20,10 +20,10 @@
       class="flex flex-wrap md:mt-28 mt-20 gap-x-20 md:gap-y-32 gap-y-20 w-full justify-center"
     >
       <article class="card md:w-[40%] md:px-5 px-3">
-        <h3 class="md:text-2xl text-lg text-darkish font-semibold">
+        <h3 class="md:text-2xl text-lg text-[#111] font-semibold">
           School of Product
         </h3>
-        <p class="text-sm md:text-base font-medium mt-6 text-darkgrey">
+        <p class="text-sm md:text-base font-medium mt-6 text-[#3f3f3f]">
           We offer you Product courses such as Product Design,Product management
           and Product marketing by equipping you with the right trainings and
           guidelines. Become a world class personnel and job-ready candidate in
@@ -37,10 +37,10 @@
       </article>
 
       <article class="card md:w-[40%] md:px-5 px-3">
-        <h3 class="md:text-2xl text-lg text-darkish font-semibold">
+        <h3 class="md:text-2xl text-lg text-[#111] font-semibold">
           School of Systems Engineering
         </h3>
-        <p class="text-sm md:text-base font-medium mt-6 text-darkgrey">
+        <p class="text-sm md:text-base font-medium mt-6 text-[#3f3f3f]">
           Begin your learning process in Front-End Web Development, Back-End Web
           Development and more. Discover career opportunities available for you.
           Speak to professionals and read through materials and the programme
@@ -54,10 +54,10 @@
       </article>
 
       <article class="card md:w-[40%] md:px-5 px-3">
-        <h3 class="md:text-2xl text-lg text-darkish font-semibold">
+        <h3 class="md:text-2xl text-lg text-[#111] font-semibold">
           School of Data
         </h3>
-        <p class="text-sm md:text-base font-medium mt-6 text-darkgrey">
+        <p class="text-sm md:text-base font-medium mt-6 text-[#3f3f3f]">
           Even as a newbie in the data analysis space, you can jumpstart your
           journey and hone your skills by kicking it off with the Axia Africa
           School of Data Analysis.

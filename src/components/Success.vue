@@ -8,9 +8,7 @@
         What our students are saying about their learning experience.
       </p>
     </div>
-    <div class="vue3-marquee flex gap-4 mt-24">
-      <div class="transparent-overlay"></div>
-      <div class="overlay"></div>
+    <div class="flex gap-4 mt-24" id="column">
       <article
         class="bg-[#faf5ee] md:w-[40%] md:px-5 px-3 py-6 z-10 flex flex-col justify-between ml-5 mr-5 relative"
       >
@@ -86,3 +84,12 @@ export default {
   name: "Success",
 };
 </script>
+
+<style>
+@media (max-width: 768px) {
+  #column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+</style>

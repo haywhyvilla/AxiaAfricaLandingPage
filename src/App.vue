@@ -1,16 +1,18 @@
 <template>
-  <Header />
-  <div class="pt-28">
-    <Home />
-    <Courses />
-    <Learn />
-    <GetOnboard />
-    <School />
-    <Forter />
-    <Success />
-    <Partner />
+  <div class="relative">
+    <Header />
+    <div class="pt-28">
+      <Home />
+      <Courses />
+      <Learn />
+      <GetOnboard />
+      <School />
+      <Forter />
+      <Success />
+      <Partner />
+    </div>
+    <Footer />
   </div>
-  <Footer />
 </template>
 
 <script>

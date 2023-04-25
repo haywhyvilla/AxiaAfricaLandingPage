@@ -12,12 +12,12 @@
           alt="logo"
           class="w-[78px]"
         />
-        <p class="text-base md:max-w-[350px] text-lighestgrey mt-1">
+        <p class="text-base md:max-w-[350px] text-[#ebebeb] mt-1">
           An organization that is focused on equipping African youths with the
           knowledge and skills needed in the tech space.
         </p>
       </div>
-      <div class="flex flex-col gap-[30px] w-[15%] mt-6 md:mt-0 pc">
+      <div class="flex flex-col gap-[30px] w-[15%] mt-6 md:mt-0">
         <span class="font-bold text-lg mb-2.5">COMPANY</span>
         <a> About </a>
         <a> Blog </a>
@@ -27,20 +27,20 @@
         <a> Blog </a>
       </div>
 
-      <div class="flex flex-col gap-[30px] w-[20%] pc">
+      <div class="flex flex-col gap-[30px] w-[20%]">
         <span class="font-bold text-lg mb-2.5">SCHOOLS</span>
         <a class="font-light"> School of Product </a>
         <a class=""> School of Data </a>
         <a class=""> School of Engineering </a>
       </div>
 
-      <div class="flex flex-col gap-[30px] lg:w-[15%] mt-6 md:mt-0 pc">
+      <div class="flex flex-col gap-[30px] lg:w-[15%] mt-6 md:mt-0">
         <span class="font-bold text-lg mb-2.5">CONTACT</span>
         <a href="mailto:axiaafrica@gmail.com">axiaafrica@gmail.com</a>
         <a href="tel:+2349015558035">09015558035</a>
       </div>
     </div>
-    <p class="center text-center w-full md:w-auto pc mt-32">
+    <p class="center text-center w-full md:w-auto mt-32">
       © 2023 Axia Africa. All rights reserved.
     </p>
   </footer>

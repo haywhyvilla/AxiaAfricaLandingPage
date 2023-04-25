@@ -1,10 +1,10 @@
 <template>
   <section class="w-full mt-24 mb-20">
     <div class="w-full container mx-auto md:px-[150px] px-5">
-      <h1 class="headline font-medium text-[28px] text-darkish md:text-4xl">
+      <h1 class="font-medium text-[28px] text-[] md:text-4xl">
         Our success story
       </h1>
-      <p class="text-lg max-w-[708px] text-darkgrey mt-5 font-medium">
+      <p class="text-lg max-w-[708px] text-[#3f3f3f] mt-5 font-medium">
         What our students are saying about their learning experience.
       </p>
     </div>

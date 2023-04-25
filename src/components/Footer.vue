@@ -16,6 +16,11 @@
           An organization that is focused on equipping African youths with the
           knowledge and skills needed in the tech space.
         </p>
+        <div class="center gap-5 mt-3 md:flex hidden">
+          <ion-icon name="logo-facebook" size="large"></ion-icon>
+          <ion-icon name="logo-instagram" size="large"></ion-icon>
+          <ion-icon name="logo-facebook" size="large"></ion-icon>
+        </div>
       </div>
       <div class="flex flex-col gap-[30px] w-[15%] mt-6 md:mt-0">
         <span class="font-bold text-lg mb-2.5">COMPANY</span>

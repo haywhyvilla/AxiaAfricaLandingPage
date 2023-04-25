@@ -13,6 +13,7 @@
       class="grid mt-12 lg:grid-cols-3 grid-cols-1 place-content-center sm:grid-cols-2 gap-10"
     >
       <article class="bg-[#faf5ee] flex flex-col relative z-10">
+        <div class="abs"></div>
         <img
           src="../assets/course1.png"
           alt="image"
@@ -31,11 +32,13 @@
             class="font-semibold text-base flex gap-3 text-[#202054] pl-0 mt-4 hover:gap-5 transite"
           >
             <span class="underline"> Enroll Now </span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
           </a>
         </div>
       </article>
 
       <article class="bg-[#faf5ee] flex flex-col relative z-10">
+        <div class="abs"></div>
         <img
           src="../assets/course2.png"
           alt="image"
@@ -54,11 +57,13 @@
             class="font-semibold text-base flex gap-3 text-[#202054] pl-0 mt-4 hover:gap-5 transite"
           >
             <span class="underline"> Enroll Now </span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
           </a>
         </div>
       </article>
 
       <article class="bg-[#faf5ee] flex flex-col relative z-10">
+        <div class="abs"></div>
         <img
           src="../assets/course3.png"
           alt="image"
@@ -77,6 +82,7 @@
             class="font-semibold text-base flex gap-3 text-[#202054] pl-0 mt-4 hover:gap-5 transite"
           >
             <span class="underline"> Enroll Now </span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
           </a>
         </div>
       </article>
@@ -96,5 +102,23 @@ export default {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.abs {
+  background-color: transparent;
+  border: 3px solid #000;
+  border-right-width: 0;
+  bottom: -20px;
+  content: "";
+  height: 90%;
+  left: -12px;
+  position: absolute;
+  width: 95%;
+  z-index: -1;
+}
+
+ion-icon {
+  margin-top: 3px;
+  font-size: 20px;
 }
 </style>

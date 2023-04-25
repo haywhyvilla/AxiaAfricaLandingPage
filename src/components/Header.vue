@@ -18,7 +18,7 @@
             class="text-base font-['Sen'] font-medium relative flex gap-2 items-center cursor-pointer"
           >
             <p class="flex gap-2">Schools</p>
-            <v-icon name="BiChevronCompactDown" />
+            <ion-icon name="chevron-down-outline"></ion-icon>
           </span>
           <button class="text-base font-['Sen'] font-medium">
             Join Our Community
@@ -27,6 +27,7 @@
             class="text-base font-['Sen'] font-medium relative flex gap-2 items-center cursor-pointer"
           >
             <p class="flex gap-2">Help</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
           </span>
         </div>
         <div class="flex items-center justify-between gap-3">
@@ -45,8 +46,5 @@
 import { BiChevronCompactDown } from "oh-vue-icons/icons";
 export default {
   name: "Header",
-  components: {
-    "v-icon": BiChevronCompactDown,
-  },
 };
 </script>

@@ -18,14 +18,15 @@
       class="flex flex-col justify-center md:justify-start md:flex-row gap-6 items-center mt-12"
     >
       <a
-        class="shadow-[5px_6px_0px_1px_rgba(32,32,84,1)] border-solid border-[#111] border-[3px] text-[#111] font-semibold text-base"
+        class="shadow-[5px_6px_0px_1px_rgba(32,32,84,1)] border-solid border-[#111] border-[3px] text-[#111] font-semibold text-base px-4 py-2"
       >
         Apply Now
       </a>
       <button
-        class="font-semibold text-base flex justify-center items-center gap-3 text-primary hover:gap-5 transite"
+        class="font-semibold text-base flex justify-center items-center gap-3 text-[#202054] hover:gap-5 transite"
       >
         <span class="underline">Speak with an Advisor</span>
+        <ion-icon name="arrow-forward-outline"></ion-icon>
       </button>
     </div>
     <img

@@ -20,6 +20,7 @@
       class="flex flex-wrap md:mt-28 mt-20 gap-x-20 md:gap-y-32 gap-y-20 w-full justify-center"
     >
       <article class="bg-[#faf5ee] md:w-[40%] md:px-5 px-3 py-6 relative z-10">
+        <div class="article"></div>
         <h3 class="md:text-2xl text-lg text-[#111] font-semibold">
           School of Product
         </h3>
@@ -33,10 +34,12 @@
           class="text-base font-semibold text-[#202054] flex gap-3 pl-0 md:mt-16 mt-8 hover:gap-5 py-3 px-6"
         >
           <span class="underline">View Courses</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
         </a>
       </article>
 
       <article class="bg-[#faf5ee] md:w-[40%] md:px-5 px-3 py-6 relative z-10">
+        <div class="article"></div>
         <h3 class="md:text-2xl text-lg text-[#111] font-semibold">
           School of Systems Engineering
         </h3>
@@ -50,10 +53,12 @@
           class="text-base font-semibold text-[#202054] flex gap-3 pl-0 md:mt-16 mt-8 hover:gap-5 py-3 px-6"
         >
           <span class="underline">View Courses</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
         </a>
       </article>
 
       <article class="bg-[#faf5ee] md:w-[40%] md:px-5 px-3 py-6 relative z-10">
+        <div class="article"></div>
         <h3 class="md:text-2xl text-lg text-[#111] font-semibold">
           School of Data
         </h3>
@@ -66,6 +71,7 @@
           class="text-base font-semibold text-[#202054] flex gap-3 pl-0 md:mt-16 mt-8 hover:gap-5 py-3 px-6"
         >
           <span class="underline">View Courses</span>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
         </a>
       </article>
     </div>
@@ -77,3 +83,18 @@ export default {
   name: "School",
 };
 </script>
+
+<style>
+.article {
+  background-color: transparent;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  bottom: -20px;
+  content: "";
+  height: 90%;
+  left: -12px;
+  position: absolute;
+  width: 95%;
+  z-index: -10;
+}
+</style>

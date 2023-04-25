@@ -32,6 +32,7 @@
         <h2
           class="text-[28px] md:text-3xl font-medium text-white relative ml-24 before:border-black"
         >
+          <div class="line"></div>
           Why choose us
         </h2>
         <p class="mt-6 md:text-base font-medium text-[#ebebeb]">
@@ -51,3 +52,15 @@ export default {
   name: "GetOnboard",
 };
 </script>
+
+<style>
+.line {
+  border-bottom: 3px solid;
+  bottom: 50%;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: 110%;
+  width: 77px;
+}
+</style>

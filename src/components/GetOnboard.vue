@@ -2,7 +2,7 @@
   <section class="w-full md:py-28 py-12 bg-[#111111]">
     <div class="container px-5 lg:px-[150px] mx-auto">
       <header
-        class="container w-full headline font-medium text-[28px] md:text-[36px] lg:pl-12] text-white"
+        class="container w-full font-medium text-[28px] md:text-[36px] lg:pl-12 text-white"
       >
         Get onboard with us
       </header>
@@ -30,14 +30,11 @@
         class="container w-full mx-auto flex flex-col items-start justify-between mt-14 md:px-0 text-[#ebebeb]"
       >
         <h2
-          class="headline text-[28px] md:text-3xl font-medium text-white relative ml-24 before:border-black"
+          class="text-[28px] md:text-3xl font-medium text-white relative ml-24 before:border-black"
         >
           Why choose us
         </h2>
-        <p
-          data-v-8bea5be0=""
-          class="mt-6 md:text-base font-medium text-[#ebebeb]"
-        >
+        <p class="mt-6 md:text-base font-medium text-[#ebebeb]">
           We at Axia Africa are intentional about our students and focused about
           building a community. The tech space in Africa is fast growing and we
           have the necessary programmes to help launch you into that space. We

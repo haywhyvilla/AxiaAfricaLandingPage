@@ -14,7 +14,11 @@
       generation of tech talents waiting to be tapped.
     </p>
 
-    <a href="/partners" class="mb-10 btn-primary"> Learn More </a>
+    <a
+      class="mb-10 shadow-[0_0_#0000,0_0_#0000,0_0_#0000,_7px_7px_0px_#0000,_0_0_#202054] border-solid border-[#111] border-[3px] px-4 py-2btn-primary"
+    >
+      Learn More
+    </a>
     <img
       src="https://www.axia.africa/_nuxt/deco1.abb302cd.svg"
       alt="deco"

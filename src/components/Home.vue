@@ -3,13 +3,13 @@
     class="container w-full relative h-[700px] px-5 lg:px-[150px] mx-auto sm:mt-20"
   >
     <h1
-      class="headline text-[32px] text-center font-medium text-darkish md:text-start md:text-[45px] max-w-[560px]"
+      class="text-[32px] text-center font-medium text-[#111] md:text-start md:text-[45px] max-w-[560px]"
     >
-      Accelerate your career with <span class="grad">Job-ready</span>tech
-      skills.
+      Accelerate your career with
+      <span id="bg">Job-ready </span>tech skills.
     </h1>
     <p
-      class="text-base md:text-lg text-darkgrey text-center md:text-start max-w-[480px] md:mt-7 mt-2.5"
+      class="text-base md:text-lg text-[#3f3f3f] text-center md:text-start max-w-[480px] md:mt-7 mt-2.5"
     >
       Begin your tech journey and expand your career opportunities in the tech
       space by learning tech skills in demand.
@@ -17,8 +17,14 @@
     <div
       class="flex flex-col justify-center md:justify-start md:flex-row gap-6 items-center mt-12"
     >
-      <a href="/application" class="btn-primary"> Apply Now </a>
-      <button class="btn center gap-3 text-primary hover:gap-5 transite">
+      <a
+        class="shadow-[5px_6px_0px_1px_rgba(32,32,84,1)] border-solid border-[#111] border-[3px] text-[#111] font-semibold text-base"
+      >
+        Apply Now
+      </a>
+      <button
+        class="font-semibold text-base flex justify-center items-center gap-3 text-primary hover:gap-5 transite"
+      >
         <span class="underline">Speak with an Advisor</span>
       </button>
     </div>
@@ -40,3 +46,11 @@ export default {
   name: "Home",
 };
 </script>
+
+<style>
+#bg {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(65deg, #ab2638, #f0b73f);
+  -webkit-background-clip: text;
+}
+</style>

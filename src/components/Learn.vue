@@ -11,7 +11,9 @@
           Speak with our professional tech advisors to help kick start your tech
           journey and pilot you to being an expert in your desired field.
         </p>
-        <button class="btn-secondary text-white mt-8">
+        <button
+          class="shadow-[5px_6px_0px_1px_rgba(256,256,256,1)] border-solid border-[#fff] border-[3px] text-white mt-8 px-4 py-2"
+        >
           Speak with an Advisor
         </button>
       </div>
